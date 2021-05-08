@@ -79,8 +79,7 @@ Pro vyvoj budu pouzivat asi heroku (kvuli jednoduchosti uploadu behem vyvoje), m
 - telefon
 - email
 - zprava
-- zaplacena (funkcionalita do admina)
-- vyrizena (funkcionalita do admina)
+- stav (vytvorena, zaplacena, odeslana)
 - timestamp (datum a cas vytvoreni prihlasky)
 
 **Newsletter prihlaska**
