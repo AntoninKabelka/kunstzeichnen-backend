@@ -46,38 +46,35 @@ Pro vyvoj budu pouzivat asi heroku (kvuli jednoduchosti uploadu behem vyvoje), m
 
 ## prihlasky / formulare 
 
+**person
+- first name
+- surname
+- date of birth
+- gender
+- telepohone
+- email
+
+**address
+- street 
+- house number
+- city
+- state
+- postcode
+
+
 **prihlaska do kurzu**
 - kurz
-- jmeno objednavajiciho
-- prijmeni objednavajiciho
-- gender objednavajiciho
-- telefon objednavajiciho
-- email objednavajiciho
-- ulice
-- cislo popisne
-- mesto
-- psc
-- zeme
+- buyer - person
+- atendant - person
 - zprava
 - typ (normalni, darek, dite) - u normalni se data prihlaseneho = data objednavajiciho
-- jmeno prihlaseneho
-- prijmeni prihlaseneho
-- telefon prihlaseneho - u deti
-- datum narozeni prihlaseneho - u deti
 - send by post - u darku
 - stav (vytvorena, potrvzena, zaplacena, stornovana) - funcionalita do admina 
 - timestamp (datum a cas vytvoreni prihlasky)
 
 **prihlaska na knihu**
-- jmeno
-- prijmeni
-- ulice
-- cislo
-- mesto
-- psc
-- zeme
-- telefon
-- email
+- person
+- address
 - zprava
 - stav (vytvorena, zaplacena, odeslana)
 - timestamp (datum a cas vytvoreni prihlasky)
@@ -118,6 +115,8 @@ Pro vyvoj budu pouzivat asi heroku (kvuli jednoduchosti uploadu behem vyvoje), m
 
 **Newsletter**
 - prihlaseni (seznam prihlasek do newsletteru)
+
+CMS
 
 **Aktualita**
 - obrazek
